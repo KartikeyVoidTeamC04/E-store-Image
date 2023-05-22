@@ -1,0 +1,189 @@
+.nav {
+  background-image: linear-gradient(to right, #000000, #4c4c4c);
+  overflow: hidden;
+  position: relative;
+}
+
+
+
+.upload-but {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bolder;
+  top: 0;
+  right: 0;
+}
+
+/* Styling the links inside the navbar */
+.nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Adding an active class to highlight the current page */
+.nav a.active {
+  background-color: #04f900;
+  color: black;
+}
+
+.heading {
+  text-align: center;
+}
+
+.content {
+  font-size: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .nav a {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .heading {
+    font-size: 24px;
+  }
+
+  .content {
+    font-size: 16px;
+  }
+
+  /*.upload-but {
+    font-size: 16px;
+    padding: 10px;
+  }*/
+}
+
+
+
+
+
+/*Image Slider CSS*/
+#imageSlider {
+  width: 100%;
+  height: auto;
+  max-width: 1690px;
+  max-height: 500px; /* Adjust the height as needed */
+  overflow: hidden;
+  position: relative;
+}
+
+#imageSlider img {
+  width: 1690px;
+  height: 500px;
+  object-fit: cover;
+  display: none;
+}
+
+#imageSlider img.active {
+  display: block;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  #imageSlider {
+    max-width: 1690px;
+    height: 500px;
+  }
+}
+
+
+
+
+
+
+
+/*Card Section Css*/
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: arial;
+  }
+  
+  .main {
+    margin: 2%;
+  }
+  
+  .card {
+    width: 20%;
+    display: inline-block;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 5px;
+    margin: 2%;
+  }
+  
+  .image img {
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+  
+  .title {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  h1 {
+    font-size: 20px;
+  }
+  
+  .des {
+    padding: 3px;
+    text-align: center;
+    padding-top: 10px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  
+  button {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  button:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  /* Responsive CSS */
+  
+  @media only screen and (max-width: 768px) {
+    .card {
+      width: 45%;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .card {
+      width: 90%;
+    }
+  }
+  
+
+
+  

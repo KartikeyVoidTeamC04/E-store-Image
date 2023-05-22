@@ -1,0 +1,50 @@
+.nav {
+    background-image: linear-gradient(to right, #000000 , #4c4c4c);
+    overflow: hidden;
+  }
+  
+  /* Styling the links inside the navbar */
+  .nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight:bolder;
+  }
+  
+  .nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Adding an active class to highlight the current page */
+  .nav a.active {
+    background-color:#04f900;
+    color:black;
+  }
+  .heading{
+    text-align:center; 
+  }
+  .content{
+    font-size: 20px; 
+  }
+
+  .upload-but{
+
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight:bolder;
+    padding: -2px;
+    
+  }
+
+
+  
